@@ -1,0 +1,13 @@
+/* @import url("./normalize.css"); 似乎现版本的import时，1和2这两种方式都行都行*/
+@import url("normalize.css");
+
+:foot{/* 伪类，根元素 */
+	--color-text:#666;/* 定义变量 */
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.color{
+  color: red;
+}
