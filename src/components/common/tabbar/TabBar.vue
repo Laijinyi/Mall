@@ -20,7 +20,7 @@
 </script>
 
 <style>
-  @import url("../../assets/css/base.css");/* 在style中引用其它地方的css文件方式 */
+  @import url("../../../assets/css/base.css");/* 在style中引用其它地方的css文件方式 */
   /* body{公共的css还是抽在一个地方好些
     margin: 0px;
     padding: 0px;
