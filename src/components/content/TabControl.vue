@@ -27,6 +27,7 @@ export default {
   methods:{
     changeIndex(index){
       this.currentIndex=index;
+      this.$emit('tabControl',index);
     }
   }
 }
@@ -42,6 +43,7 @@ export default {
   background-color: #eeeeee;
   position: sticky;
   top: 44px;
+  z-index: 9;
 }
 .tab-control-item{
   flex: 1;

@@ -1,6 +1,6 @@
 <template>
     <div id="hy-swiper">
-      <div class="swiper" @touchstart="touchStart" @touchmove="touchMove" @touchend="touchEnd">
+      <div class="swiper" @touchstart="touchStart" @touchmove="touchMove" @touchend="touchEnd" res="swiper">
         <slot></slot>
       </div>
       <slot name="indicator">
